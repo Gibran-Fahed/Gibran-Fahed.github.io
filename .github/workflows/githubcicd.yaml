@@ -13,4 +13,7 @@ jobs:
           node-version: 16.17.0
       - run: npm ci
       - run: npm run build
+      - run: |
+          git config user.email "gf95@divcodes.com"
+          git config  user.name "tiger99"
       - run: npm run deploy
