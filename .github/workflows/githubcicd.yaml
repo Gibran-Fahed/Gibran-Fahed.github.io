@@ -16,5 +16,5 @@ jobs:
       - run: npm run build
       - run: git config user.email "gf95@divcodes.com"
       - run: git config user.name "tiger99"
-      - run: gh-pages -b main -d dist -u Gibran-Fahed
+      - run: npm run gh-pages -b main -d dist -u Gibran-Fahed
       - run: npm run deploy
