@@ -10,6 +10,7 @@ jobs:
       GH_USERNAME: ${{ secrets.GH_USERNAME }}
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
+      - run: echo "Username: $GH_USERNAME, Token: $GH_TOKEN"
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
