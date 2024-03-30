@@ -16,4 +16,5 @@ jobs:
       - run: npm run build
       - run: git config user.email "gf95@divcodes.com"
       - run: git config user.name "tiger99"
+      - run: git config user.username "Gibran-Fahed<gf95@divcodes.com>"
       - run: npm run deploy
