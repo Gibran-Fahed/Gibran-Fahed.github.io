@@ -16,4 +16,5 @@ jobs:
       - run: npm run build
       - run: git config user.email "gf95@divcodes.com"
       - run: git config user.name "tiger99"
+      - run: git remote add origin "https://github.com/Gibran-Fahed/Gibran-Fahed.github.io.git"
       - run: npm run deploy
